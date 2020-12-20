@@ -3,15 +3,20 @@ let computerScore = 0;
 let currentRoundNumber = 1;
 
 // Write your code below:
-//Generate the target number
 const generateTarget = () => {
   return Math.floor(Math.random() * 10);
 };
 
-//compare the guesses with the target number and determine the winner
+const getAbsoluteDistance = (num1, num2) => {
+  return Math.abs(num1 - num2);
+}
+
 const compareGuesses = (humanGuess, computerGuess, targetNumber) => {
- let humanPoint = Math.abs(humanGuess - targetNumber);
- let computerPoint = Math.abs(computerGuess - targetNumber);
+  if(humanGuess < 0 || humanGuess > 9){
+    alert(`This is not a valid number. Please choose a number between 1 and 9!`);
+  };
+ let humanPoint = getAbsoluteDistance(humanGuess, targetNumber);
+ let computerPoint = getAbsoluteDistance(computerGuess, targetNumber);
  if(humanPoint <= computerPoint) {
    return true;
  } else {
@@ -19,7 +24,6 @@ const compareGuesses = (humanGuess, computerGuess, targetNumber) => {
  }
 };
 
-//update the winner score
 const updateScore = (winner) => {
   if(winner === 'human'){
     humanScore +=1;
@@ -28,7 +32,6 @@ const updateScore = (winner) => {
 }
 };
 
-//play next round
 const advanceRound = () => {
 currentRoundNumber +=1;
-}
+};
