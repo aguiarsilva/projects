@@ -1,6 +1,6 @@
-# Projects for the Codecademy FullStack Track
+# Projects for the Codecademy FullStack Track and FreeCodeCamp.org
 
-This repository contains the projects done during the Codecademy FullStack Developer track.
+This repository contains the projects done during the Codecademy FullStack Developer track and FreeCodeCamp.org.
 
 ## Table of Contents
 
@@ -25,4 +25,4 @@ This repository is being worked since the course is going on and not finished ye
 
 ## Sources
 
-This project is based on Codecademy Fullstack developer track.
+This project is based on Codecademy Fullstack developer track and FreeCodeCamp.org.
