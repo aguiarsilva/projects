@@ -16,6 +16,7 @@ This repository contains all the projects built during the learning track to bec
 ## Technologies
 
 * HTML5
+* CSS
 * JavaScript
 * Node.js
 
