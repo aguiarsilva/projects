@@ -1,0 +1,31 @@
+body {
+    font-family: garamond;
+    background-color: lavenderblush;
+  }
+  
+  #title {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  table {
+    border: 2px solid skyblue;
+    width: 700px;
+    margin: 0 auto;
+    border-spacing: 2px;
+  }
+  
+  thead {
+    background-color: Dodgerblue;
+  }
+  
+  td {
+    border-top: 1px solid skyblue;
+    display: table-cell;
+    vertical-align: inherit;
+  }
