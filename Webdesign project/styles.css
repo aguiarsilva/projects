@@ -51,7 +51,13 @@ h1 {
 }
 
 .font-container {
-    display: block;
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 .roboto {
