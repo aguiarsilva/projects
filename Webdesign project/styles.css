@@ -2,6 +2,10 @@ body {
     font-family: "Roboto";
 }
 
+h1 {
+    padding: 0.4rem 1.5rem;
+}
+
 .container {
     border: 2px solid darkslategrey;
     border-radius: 5px;
@@ -9,3 +13,39 @@ body {
     padding: 0.4rem 1.5rem;
 }
 
+.color-container {
+    display: block;
+}
+
+.color-box {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.dark-blue {
+    background-color: #0000CC;
+    color: white;
+}
+
+.light-blue {
+    background-color: #66CCFF;
+}
+
+.light-green {
+    background-color: #99FFCC;
+}
+
+.light-red {
+    background-color: #FFCCCC;
+}
+
+.light-lila {
+    background-color: #FF99FF;
+}
+
+.lila {
+    background-color: #FF66FF;
+}
