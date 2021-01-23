@@ -49,3 +49,45 @@ h1 {
 .lila {
     background-color: #FF66FF;
 }
+
+.font-container {
+    display: block;
+}
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-regular {
+    font-weight: 400;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.recursive {
+    font-family: "Recursive", sans-serif;
+}
+
+.recursive-regular {
+    font-weight: 400;
+}
+
+.recursive-bold {
+    font-weight: 700;
+}
+
+.rubik {
+    font-family: "Rubik", sans-serif;
+}
+
+.rubik-regular {
+    font-weight: 400;
+}
+
+.rubik-bold {
+    font-weight: 700;
+}
+
