@@ -51,8 +51,14 @@ h1 {
 }
 
 .font-container {
+    display: block;
+}
+
+.font-box {
     display: inline-block;
     width: 45%;
+    margin: 20px auto;
+    min-height: 100px;
 }
 
 .font-label {
@@ -97,3 +103,13 @@ h1 {
     font-weight: 700;
 }
 
+.text-container {
+    display: block;
+}
+
+.text-box {
+    display: inline-block;
+    width: 45%;
+    margin: 20px auto;
+    min-height: 100px;
+}
