@@ -58,3 +58,77 @@ nav p {
     display: inline-block;
     padding: 20px 10px;
 }
+
+
+/*Content*/
+
+main {
+    padding-top: 70px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*Mission*/
+
+#mission {
+    height: 700px;
+    background-image: url("https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    padding-top: 70px;
+}
+
+#mission .content {
+    background-color: seashell;
+    margin: auto;
+    width: 100%;
+}
+
+
+/*Services*/
+
+#services {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.area {
+    padding: 5px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.area img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+.area span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Contact*/
+
+#contact {
+    height: 200px;
+    background-color: seashell;
+    padding-top: 10px;
+}
+
+
+/*footer*/
+
+footer {
+    text-align: left;
+    padding-left: 20px;
+    background-color: seashell;
+    font-size: 14px;
+}
