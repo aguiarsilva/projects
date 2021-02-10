@@ -1,0 +1,12 @@
+/*General Styles*/
+
+body {
+    background-color: whitesmoke;
+    color: black;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
