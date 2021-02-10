@@ -52,7 +52,27 @@ nav span {
     display: inline-block;
     padding: 20px 10px;
     font-size: 1.5rem;
+    margin-right: 10px;
 }
 
 
 /*Content*/
+
+main {
+    padding-top: 70px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*Section 1*/
+
+#club {
+    height: 200px;
+    background-color: rgb(206, 179, 206);
+    padding-top: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
