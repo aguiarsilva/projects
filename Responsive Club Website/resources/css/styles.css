@@ -14,7 +14,8 @@ a {
 
 h2,
 h3,
-h4 {
+h4,
+p {
     margin: 0px;
     padding: 10px;
 }
@@ -76,3 +77,46 @@ main {
     width: 100%;
     text-align: center;
 }
+
+
+/*Events*/
+
+#events {
+    height: 400px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.area {
+    padding: 5px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.area img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
+
+
+/*Testimonial*/
+
+#testmonial {
+    height: 150px;
+    background-color: rgb(206, 179, 206);
+    padding-top: 30px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#testmonial p.member {
+    font-family: "Dancing Script", cursive;
+}
+
+
+/*Partners*/
