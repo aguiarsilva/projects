@@ -1,0 +1,14 @@
+{
+  "name": "test_with_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bruno",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.3.0"
+  }
+}
